@@ -2,25 +2,44 @@
 
 СОЗДАНИЕ ОБЪЕКТОВ
 
-Product.objects.create(name='Танцующий кактус', price=1200.00, stock=10)                    
+Product.objects.create(name='Танцующий кактус', price=1200.00, stock=10)       
+
 <Product: Танцующий кактус>
+
 Product.objects.create(name='Книга "Кизару. Дежавю."', price=1100.00, stock=6)   
+
 <Product: Книга "Кизару. Дежавю.">
+
 Product.objects.create(name='Футболка Patagonia', price=1800.00, stock=20)                             
+
 <Product: Футболка Patagonia>
+
 Product.objects.create(name='Кепка MLB', price=4000.00, stock=10)           
+
 <Product: Кепка MLB>
+
 Product.objects.create(name='Смартфон POCO X3 PRO ULTRA SUPER MAXIMUM', price=16000.00, stock=1) 
+
 <Product: Смартфон POCO X3 PRO ULTRA SUPER MAXIMUM>
+
 Product.objects.create(name='Маска Дима Билан', price=400.00, stock=10)    
+
 <Product: Маска Дима Билан>
+
 Product.objects.create(name='Джойстик для PS5', price=7000.50, stock=1)    
+
 <Product: Джойстик для PS5>
+
 Product.objects.create(name='Коробок спичек', price=21.50, stock=100)      
+
 <Product: Коробок спичек>
+
 Product.objects.create(name='Носки NEKI', price=70.50, stock=20)          
+
 <Product: Носки NEKI>
+
 Product.objects.create(name='Сумка La Routine', price=5000.00, stock=2)     
+
 <Product: Сумка La Routine>
 
 ВЫВОД ВСЕХ ПРОДУКТОВ
