@@ -22,20 +22,33 @@ Product.objects.create(name='Носки NEKI', price=70.50, stock=20)
 <Product: Носки NEKI>
 Product.objects.create(name='Сумка La Routine', price=5000.00, stock=2)     
 <Product: Сумка La Routine>
+
 ВЫВОД ВСЕХ ПРОДУКТОВ
+
 all_products = Product.objects.all()                                       
+
 for product in all_products:
+
   print(product)
 
 Танцующий кактус
+
 Книга "Кизару. Дежавю."
+
 Футболка Patagonia
+
 Кепка MLB
+
 Смартфон POCO X3 PRO ULTRA SUPER MAXIMUM
+
 Маска Дима Билан
+
 Джойстик для PS5
+
 Коробок спичек
+
 Носки NEKI
+
 Сумка La Routine
 
 2 ЗАДАНИЕ (запросы с filter(),exclude(),order_by()
